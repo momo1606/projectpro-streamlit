@@ -21,7 +21,7 @@ def get_engagement_mongo(fromdate, todate):
         '''
         
         #connecting to mongo
-        client = pymongo.MongoClient("mongodb+srv://projectpro:dezyre123@cluster0.etvm5.mongodb.net/?retryWrites=true&w=majority")
+        client = pymongo.MongoClient("")
         db = client["Customers"]
         collection = db["engage_lab_data"]
 
@@ -49,7 +49,7 @@ def get_project_details():
         '''
         
         #connecting to mongo
-        client = pymongo.MongoClient("mongodb+srv://projectpro:dezyre123@cluster0.etvm5.mongodb.net/?retryWrites=true&w=majority")
+        client = pymongo.MongoClient("")
         db = client["Projects"]
         collection = db["ProjectDetails"]
         
