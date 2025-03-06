@@ -2,9 +2,7 @@ from deta import Deta
 from dotenv import load_dotenv
 import os
 #credentials for deta
-#username-kedar-kanhere
-#password-Dezyre123!
-# DETA_KEY='c0yddxul_UCW1oJKp6A14YWoLUws8XXcv82zUMbRL'
+!
 DETA_KEY=''
 
 
