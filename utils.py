@@ -9,7 +9,7 @@ import warnings
 warnings.filterwarnings("ignore")
 
 client = pymongo.MongoClient(
-    "mongodb+srv://projectpro:dezyre123@cluster0.etvm5.mongodb.net/?retryWrites=true&w=majority")
+    "")
 db = client["Customers"]
 #
 # # x=collection.count_documents({})
